@@ -1,0 +1,169 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.headerimg {
+    background: url('img/1x/header2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+.navic {
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  background: #33CC66;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  color: white !important;
+}
+
+.maincontainer {
+  padding: 5px;
+  border: 10px solid #F5F5F5;
+  border-radius: 5px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  color: white;
+  background-color: #33CC66;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dropdown {
+  border: 1px solid #DDDDDD;
+  float: left;
+  padding: 3px;
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #DDDDDD;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.carousel-item {
+  background-color: #2498F4;
+  padding: 40px;
+  padding-left: 80px;
+  line-height: 14px;
+  color: white;
+  height: 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F5F5F5;
+  color: grey;
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+
+/* nav icons going here */
+
+.navicon {
+  background: url('img/icons/green1.png') no-repeat;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon:hover {
+  background: url('img/icons/blue1.png') no-repeat;
+  padding: 12px;
+  padding-top: 60px;
+}
+
+/* two */
+
+.navicon2 {
+  background: url('img/icons/green2.png') no-repeat;
+  float: center;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon2:hover {
+  background: url('img/icons/blue2.png') no-repeat;
+}
+
+/* three */
+
+.navicon3 {
+  background: url('img/icons/green3.png') no-repeat;
+  float: center;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon3:hover {
+  background: url('img/icons/blue3.png') no-repeat;
+}
+
+/* four */
+
+.navicon4 {
+  background: url('img/icons/green4.png') no-repeat;
+  float: center;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon4:hover {
+  background: url('img/icons/blue4.png') no-repeat;
+}
+
+/* five */
+
+.navicon5 {
+  background: url('img/icons/green5.png') no-repeat;
+  float: center;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon5:hover {
+  background: url('img/icons/blue5.png') no-repeat;
+}
+
+/* six */
+
+.navicon6 {
+  background: url('img/icons/green6.png') no-repeat;
+  float: center;
+  height: 70px;
+  width: 70px;
+}
+
+.navicon6:hover {
+  background: url('img/icons/blue6.png') no-repeat;
+}
